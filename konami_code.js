@@ -14,7 +14,7 @@ const codes = [
 
 function init() {
 // Write your JavaScript code inside the init() function
-var index = 0;
+let index = 0;
 const getElement = document.querySelector('body');
 
 getElement.addEventListener('keydown', function(e) {
