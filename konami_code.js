@@ -18,7 +18,7 @@ var index = 0;
 const getElement = document.querySelector('body');
 
 getElement.addEventListener('keydown', function(e) {
-    if (code[index] === e.which || code[index] === e.detail) {
+    if (code[index] === e.key) {
         index++;
 
         if (index === 10) {
