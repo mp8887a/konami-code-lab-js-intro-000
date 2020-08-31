@@ -23,7 +23,7 @@ getElement.addEventListener('keydown', function(e) {
 
         if (index === codes.length) {
             alert("CONGRATS!");
-            index = 0;
+            index = codes.length;
         }
     } else {
         index = 0;
