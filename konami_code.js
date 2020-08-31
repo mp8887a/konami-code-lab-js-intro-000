@@ -21,7 +21,7 @@ getElement.addEventListener('keydown', function(e) {
     if (code[index] === e.key) {
         index++;
 
-        if (index === codes) {
+        if (index === 0) {
             alert("CONGRATS!");
             index = 0;
         }
