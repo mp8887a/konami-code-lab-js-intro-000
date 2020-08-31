@@ -23,7 +23,7 @@ getElement.addEventListener('keydown', function(e) {
 
         if (index === 10) {
             alert("CONGRATS!");
-            index = 0;
+            index = 10;
         }
     } else {
         index = 0;
