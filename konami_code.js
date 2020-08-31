@@ -18,12 +18,12 @@ var index = 0;
 const getElement = document.querySelector('body');
 
 getElement.addEventListener('keydown', function(e) {
-    if (code[index] === e.key) {
+    if (codes[index] === e.key) {
         index++;
 
         if (index === codes.length) {
             alert("CONGRATS!");
-            index = codes.length;
+            index = 0;
         }
     } else {
         index = 0;
