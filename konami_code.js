@@ -20,7 +20,7 @@ document.body.addEventListener('keydown', function(e) {
        index++;
 
        if (index === codes.length) {
-           alert("CONGRATS!");
+           alert("Hurray");
            index = 0;
        }
    } else {
